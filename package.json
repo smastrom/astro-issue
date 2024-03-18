@@ -13,5 +13,8 @@
   "dependencies": {
     "@astrojs/cloudflare": "^9.1.0",
     "astro": "^4.5.4"
+  },
+  "devDependencies": {
+    "prettier-plugin-astro": "^0.13.0"
   }
 }

@@ -1,15 +1,15 @@
 <nav>
-  <a href="/">Index</a>
-  <a href="/about">About</a>
-  <a href="/contact">Contact</a>
+   <a href="/">Index</a>
+   <a href="/about">About</a>
+   <a href="/contact">Contact</a>
 </nav>
 
 <script>
-/* import { prefetch } from 'astro:prefetch';
+   import { prefetch } from 'astro:prefetch'
 
-document.addEventListener('DOMContentLoaded', () => {
-  prefetch('/', { with: 'fetch' });
-  prefetch('/about', { with: 'fetch' });
-  prefetch('/contact', { with: 'fetch' });
-})  */
+   document.addEventListener('astro:page-load', () => {
+      prefetch('/', { with: 'fetch' })
+      prefetch('/about', { with: 'fetch' })
+      prefetch('/contact', { with: 'fetch' })
+   })
 </script>
